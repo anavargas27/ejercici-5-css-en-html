@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 190, 143);
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    }
+.titulo{
+    color: rgb(42, 31, 153);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img{
+    width: 100%;
+   
+
+}
+.flex{
+    display: block;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    
+   
+}
+.columna{
+    flex: 100%;
+    padding: 5px;
+ 
+}
+.columna img{
+    margin-top: 10px;
+    width: 300px;
+}
